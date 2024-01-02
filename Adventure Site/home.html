@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Adventure</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<nav class="navbar">
+	<h1 class="logo">ADVENTURE</h1>	
+	<ul class="nav-links">
+		<li><a href="#" class="active">Home</a></li>
+		<li><a href="#">Tours</a></li>
+		<li><a href="#">Explore</a></li>
+		<li><a href="#">About</a></li>
+		<li ><a href="#" class="ctn">Contact Us</a></li>
+	</ul>
+	<img src="menu.png" class="menu-btn">
+	</nav>
+	<header>
+		<div class="header-content">
+			<h2>Explore The Colorful World</h2>
+			<div class="line"></div>
+			<h1>A WONDERFUL GIFT</h1>
+			<a href="#" class="ctn">Learn More</a>
+		</div>
+	</header>
+
+	<section class="events">
+		<div class="title">
+			<h1>Upcoming Events</h1>
+			<div class="line"></div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<img src="pexels-saikat-ghosh-914128.jpg">
+				<h4>Everest Camp Trek</h4>
+				<p>Mount Everest is the highest mountain in the world with an elevation of 8889 ft above the sea level.</p>
+			</div>
+			<div class="col">
+				<img src="pexels-pixabay-236973.jpg">
+				<h4>Walking Holidays</h4>
+				<p>Mount Everest is the highest mountain in the world with an elevation of 8889 ft above the sea level.</p>
+			</div>
+		</div>
+	</section>
+	<section class="explore">
+		<div class="explore-content">
+			<h1>EXPLORE THE WORLD</h1>
+			<div class="line"></div>
+		<p>The World is a book and those who do not travel read only one page. Not all those who wanders are lost. Life is either a daring adventure or nothing at all. Take only memories and leave only footprints.</p>
+		<a href="#" class="ctn">Learn More</a>
+		</div>
+	</section>
+	<section class="tours">
+		<div class="left">
+				<h1>UPCOMING TOURS AND DESTINATIONS</h1>
+				<div class="line"></div>
+				<p>The World is a book and those who do not travel read only one page. Not all those who wanders are lost. Life is either a daring adventure or nothing at all. Take only memories and leave only footprints.</p>
+				<a href="#" class="ctn">Explore Content</a>
+			 </div>
+			 <div class="right">
+			 	<div class="image-gallery">
+			 		<img src="home.jpg">
+			 		<img src="pexels-pixabay-236973.jpg">
+					<img src="pexels-saikat-ghosh-914128.jpg">
+					<img src="home.jpg">
+
+
+			 	</div>
+			 </div>
+		</div>
+	</section>
+	<div class="clear"></div>
+	<section class="footer">
+		<p>123 Fifth Avenue, NY 10160, New York, USA | Phone : 800-123-456 | E-mail : contact@</p>
+		<p>Copyright 2020 Outdoor Adventure</p>
+	</section>
+
+
+
+	<script>
+		const menuBtn = document.querySelector('.menu-btn')
+		const navlinks = document.querySelector('.nav-links')
+
+		menuBtn.addEventListener('click',()=>{
+			navlinks.classList.toggle('mobile-menu')
+		})
+
+
+	</script>
+</body>
+</html>
